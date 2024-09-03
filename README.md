@@ -19,7 +19,7 @@ This project demonstrates the implementation of a transformer model for sequence
 
 ## Installation
 **Clone the repository:**
-git clone https://github.com/yourusername/transformer-translation.git
+git clone https://github.com/Sirius1811/Machine-Translation.git
 cd transformer-translation
 
 **Install dependencies:**
@@ -41,25 +41,40 @@ python evaluate.py --weights_file path/to/weights
 The config.py file contains all the configuration settings for the model, including:
 
 batch_size: Batch size used during training.
+
 num_epochs: Number of epochs for training.
+
 lr: Learning rate for the optimizer.
+
 seq_len: Sequence length for input and output sentences.
+
 d_model: Dimensionality of the model.
+
 datasource: Name of the data source used for training.
+
 lang_src: Source language code (e.g., 'en').
+
 lang_tgt: Target language code (e.g., 'it').
+
 model_folder: Folder where model weights are saved.
+
 model_basename: Base name for saved model files.
+
 preload: Option to preload the latest weights.
 
 ## Model Architecture
 The transformer model consists of the following components:
 
 **Input Embeddings:** Converts tokens into dense vectors.
+
 **Positional Encoding:** Adds positional information to the embeddings.
+
 **Multi-Head Attention:** Allows the model to focus on different parts of the input.
+
 **Feed-Forward Neural Networks:** Provides non-linearity and depth to the model.
+
 **Encoder and Decoder Blocks:** Stack of layers that process the input sequence and generate the output sequence.
+
 **Projection Layer:** Maps the output of the decoder to the target vocabulary.
 
 ## Future Work
