@@ -1,10 +1,10 @@
-### Transformer-Based Machine Translation Model
+# Transformer-Based Machine Translation Model
 This repository contains an implementation of a transformer-based machine translation model, inspired by the "Attention is All You Need" paper. The model is designed to translate text from English to Italian using the Opus Books dataset.
 
 ## Project Overview
 This project demonstrates the implementation of a transformer model for sequence-to-sequence tasks, specifically for machine translation. The model is built using PyTorch and incorporates key components such as multi-head self-attention, positional encoding, and feed-forward neural networks.
 
-# Key Features:
+### Key Features:
 **Custom Bilingual Dataset Class:** Handles tokenization, sequence padding, and prepares data for training.
 **Multi-Head Attention:** Implements the attention mechanism that allows the model to focus on different parts of the input sequence.
 **Positional Encoding:** Adds positional information to input embeddings to capture the order of words in the sequences.
